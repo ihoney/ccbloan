@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee 
+	http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+
+	<session-config>
+		<session-timeout>360</session-timeout>
+	</session-config>
+
+	<servlet>
+		<servlet-name>SchedulerManager</servlet-name>
+		<servlet-class>pub.platform.advance.utils.SchedulerManager</servlet-class>
+		<load-on-startup>-1</load-on-startup>
+	</servlet>
+
+	<servlet>
+		<servlet-name>ImgServlet</servlet-name>
+		<servlet-class>pub.platform.security.ImgServlet</servlet-class>
+	</servlet>
+
+	<servlet>
+		<servlet-name>login</servlet-name>
+		<jsp-file>/welcome.jsp</jsp-file>
+	</servlet>
+    <servlet-mapping>
+        <servlet-name>login</servlet-name>
+        <url-pattern>/qdgddy</url-pattern>
+    </servlet-mapping>
+
+
+
+
+	<servlet-mapping>
+		<servlet-name>ImgServlet</servlet-name>
+		<url-pattern>/signjpg</url-pattern>
+	</servlet-mapping>
+	<servlet-mapping>
+		<servlet-name>SchedulerManager</servlet-name>
+		<url-pattern>/SchedulerManager</url-pattern>
+	</servlet-mapping>
+
+    <!--添加-->
+    <servlet>
+        <servlet-name>ZHExcelServlet</servlet-name>
+        <servlet-class>com.ccb.servlet.ZHExcelServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ReportCountExcelServlet</servlet-name>
+        <servlet-class>com.ccb.servlet.ReportCountExcelServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ZHExcelServlet</servlet-name>
+        <url-pattern>/servlet/ZHExcelServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ReportCountExcelServlet</servlet-name>
+        <url-pattern>/servlet/ReportCountExcelServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>FHExcelServlet</servlet-name>
+        <servlet-class>com.ccb.servlet.FHExcelServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>TiaoXMServlet</servlet-name>
+        <servlet-class>com.ccb.servlet.TiaoXMServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>UnCommonTiaoXMServlet</servlet-name>
+        <servlet-class>com.ccb.servlet.UnCommonTiaoXMServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>StatisticsServlet</servlet-name>
+        <servlet-class>com.ccb.servlet.StatisticsServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>StatisticsServlet</servlet-name>
+        <url-pattern>/servlet/StatisticsServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>TiaoXMServlet</servlet-name>
+        <url-pattern>/servlet/TiaoXMServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>UnCommonTiaoXMServlet</servlet-name>
+        <url-pattern>/servlet/UnCommonTiaoXMServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>FHExcelServlet</servlet-name>
+        <url-pattern>/servlet/FHExcelServlet</url-pattern>
+    </servlet-mapping>
+    <!--添加-->
+
+	<mime-mapping>
+		<extension>xls</extension>
+		<mime-type>application/vnd.ms-excel</mime-type>
+	</mime-mapping>
+
+	<welcome-file-list>
+		<welcome-file>/welcome.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>

@@ -1,0 +1,2 @@
+var SQLStr;
+var gWhereStr = "";

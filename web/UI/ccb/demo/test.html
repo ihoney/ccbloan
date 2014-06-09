@@ -1,0 +1,435 @@
+<!--
+  /*********************************************************************
+  *    功能描述:    1.
+  *
+  *    作    者:    leonwoo
+  *    开发日期:    2005/01/28
+  *    修 改 人:
+  *    修改日期:
+  *    版    权:    leonwoo
+  ***********************************************************************/
+-->
+<LINK href="/css/catv.css" type="text/css" rel="stylesheet">
+<script language="javascript" src="/js/basic.js"></script>
+<script language="javascript" src="/js/xmlHttp.js"></script>
+<script language="javascript" src="/js/dbgrid.js"></script>
+<script language="javascript" src="/js/dbutil.js"></script>
+<script language="javascript" src="/js/Calendar.js"></script>
+<script language="javascript" src="/js/dropdownData.js"></script>
+<script language="JavaScript" src="/js/compack.js"></script>
+<script language="javascript" src="/js/Month.js"></script>
+<script language="javascript" src="/js/menu.js"></script>
+<script language="javascript" src="/js/tree.js"></script>
+<script language="javascript" src="/js/loadform.js"></script>
+<script language="javascript" type="text/javascript" src="/DatePicker/WdatePicker.js"></script>
+<html>
+  <head>
+    <META http-equiv=Content-Type content="text/html; charset=GBK">
+    <title></title>
+    <LINK href="/css/catv.css" type="text/css" rel="stylesheet">
+    <script language="javascript" src="js/fileList.js"></script>
+    <script language="javascript" src="/UI/support/pub.js"></script>
+  </head>
+  <body bgcolor="#ffffff" onload="body_resize()" onresize="body_resize();" onclick="body_Click()" class="Bodydefault">
+    <fieldset>
+      <legend>
+        查询条件
+      </legend>
+      <table border="0" cellspacing="0" cellpadding="0" width="100%">
+        <form id="queryForm" name="queryForm">
+          <input type="hidden" id="fileId" value="">
+        <tr height="20">
+          <td width="14%" align="right" nowrap class="lbl_right_padding">
+            文件名称
+          </td>
+          <td align="right" nowrap class="data_input">
+            <input name="text" type="text" id="file_name" style="width:100%" textLength="100">
+          </td>
+          <td width="15%" align="right" nowrap class="lbl_right_padding">
+            放款形式
+          </td>
+          <td width="20%" class="data_input">
+            <select id="file_type" fieldname="file_type" style="width: 100%" name="file_type" fieldtype="text">
+              <option expand=" " value="01">
+                签约放款
+              <option expand=" " value="02">
+                见回执放款
+              <option expand=" " value="03">
+                见证放款
+              <option expand=" " value="04">
+                组合回执放款
+              <option expand=" " value="05">
+                组合见证放款
+              <option expand=" " value="06">
+                组合签约放款
+            </select>
+            <script language="javascript">
+<!--
+document.all("file_type").value='1';
+// -->
+</script>
+          </td>
+          <td width="14%" align="center" nowrap>
+            <input name="cbRetrieve" type="button" class="buttonGrooveDisable" id="button" onClick="cbRetrieve_Click(document.queryForm)" onMouseOver="button_onmouseover()"
+              onMouseOut="button_onmouseout()" value="检索">
+            <input name="Input" class="buttonGrooveDisable" type="reset" value="重填" onMouseOver="button_onmouseover()" onMouseOut="button_onmouseout()">
+          </td>
+        </tr>
+        </form>
+      </table>
+    </fieldset>
+    <fieldset>
+      <legend>
+        文件列表
+      </legend>
+      <table width="100%">
+        <tr>
+          <td>
+            <TABLE id=tblWorkArea cellPadding=0 width="100%">
+              <TR>
+                <TD id=tdWorkArea vAlign=center algin=left height="100%">
+                  <div id="div_itemTab" antoresize="true" onresize="body_afterResize(this)">
+                    <form id="form_itemTab" style="TOP:0px ;width:100%;margin:0px;padding:0px" class="gridForm">
+                      <div class="divToucss" id="divt_itemTab" style="Z-INDEX: 1; OVERFLOW: hidden; WIDTH: 100%;height:22">
+                        <table id="Title_itemTab" width="100%" height=22 border="0" cellspacing="1" cellpadding="0">
+                          <tr height="22" onclick='makeTableSortable("Title_itemTab","itemTab")'>
+                            <td noWrap align="center" vAlign="center" height="22" width="38.46154%">
+                              <SPAN unselectable="on" align="right" style="height:25;width:80% ">文件名称</SPAN><SPAN style=" height:25 ;width:20% "></SPAN>
+                            </td>
+                            <td noWrap align="center" vAlign="center" height="22" width="15.384616%">
+                              <SPAN unselectable="on" align="right" style="height:25;width:80% ">文件发布时间</SPAN><SPAN style=" height:25 ;width:20% "></SPAN>
+                            </td>
+                            <td noWrap align="center" vAlign="center" height="22" width="15.384616%">
+                              <SPAN unselectable="on" align="right" style="height:25;width:80% ">文件有效期限</SPAN><SPAN style=" height:25 ;width:20% "></SPAN>
+                            </td>
+                            <td noWrap align="center" vAlign="center" height="22" width="15.384616%">
+                              <SPAN unselectable="on" align="right" style="height:25;width:80% ">文件是否显示</SPAN><SPAN style=" height:25 ;width:20% "></SPAN>
+                            </td>
+                            <td noWrap align="center" vAlign="center" height="22" width="15.384616%">
+                              <SPAN unselectable="on" align="right" style=" height:25 ;width:80% "> 文件大类</SPAN><SPAN style="height:25 ; width:20% "></SPAN>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                      <div id="divfd_itemTab" style="OVERFLOW: auto;WIDTH: 100%; height:350px ;" onscroll="body_Click();TextInit();NumberTextInit();">
+                        <div class="divTiSkin" onmouseover="this.style.cursor='hand'" onmouseout="this.style.cursor='default'" onscroll="body_Click();TextInit();NumberTextInit();">
+                          <table id="itemTab" width="100%" border="0" cellspacing="1" cellpadding="1" activeIndex=0 fieldname="file_id,file_name,file_date,file_lastdate,isvisibled,file_type"
+                            SQLStr="select  file_id,file_name,file_date,file_lastdate,isvisibled,file_type from aic_file_info where 1=1 " fieldtype="text,text,text,text,dropdown,dropdown"
+                            fieldCN="唯一序号,文件名称,文件发布时间,文件有效期限,文件是否显示,文件大类" enumType="-1,0,0,0,BOOLTYPE,loanType" whereStr="[~20]order[~20]by[~20]file[~5f]date[~20]desc[~20" pageSize="16"
+                            AbsolutePage="1" TotalPage="2" RecordCount="24" visible="false,true,true,true,true,true" checkbl="false" fieldwidth="5,20,8,8,8,8" fieldCheck=";;;;;" gridType="edit"
+                            tralign="left,left,left,left,left,left,left,left,left,left,left,left" countSQL="" bottomVisible="true">
+                            <tr class="gridOddRow" edit=false operate="" whStr="file_id&text&201001050006" ValueStr="201001050006;测试;2010-01-05;2034-01-23;1;04;"
+                              OldValueStr="201001050006;测试;2010-01-05;2034-01-23;1;04;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="测试" fieldname="file_name" fieldtype="text">
+                                测试
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2010-01-05" fieldname="file_date" fieldtype="text">
+                                2010-01-05
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2034-01-23" fieldname="file_lastdate" fieldtype="text">
+                                2034-01-23
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="04" fieldname="file_type" fieldtype="dropdown" attr="04">
+                                组合回执放款
+                              </td>
+                            </tr>
+                            <tr class="gridEvenRow" edit=false operate="" whStr="file_id&text&201001050005" ValueStr="201001050005;ddd;2010-01-05;;1;;" OldValueStr="201001050005;ddd;2010-01-05;;1;;"
+                              height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="ddd" fieldname="file_name" fieldtype="text">
+                                ddd
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2010-01-05" fieldname="file_date" fieldtype="text">
+                                2010-01-05
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_type" fieldtype="dropdown" attr=""></td>
+                            </tr>
+                            <tr class="gridOddRow" edit=false operate="" whStr="file_id&text&201001050004" ValueStr="201001050004;d;2010-01-05;;1;;" OldValueStr="201001050004;d;2010-01-05;;1;;"
+                              height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="d" fieldname="file_name" fieldtype="text">
+                                d
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2010-01-05" fieldname="file_date" fieldtype="text">
+                                2010-01-05
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_type" fieldtype="dropdown" attr=""></td>
+                            </tr>
+                            <tr class="gridEvenRow" edit=false operate="" whStr="file_id&text&201001050003" ValueStr="201001050003;ddd;2010-01-05;;1;;" OldValueStr="201001050003;ddd;2010-01-05;;1;;"
+                              height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="ddd" fieldname="file_name" fieldtype="text">
+                                ddd
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2010-01-05" fieldname="file_date" fieldtype="text">
+                                2010-01-05
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_type" fieldtype="dropdown" attr=""></td>
+                            </tr>
+                            <tr class="gridOddRow" edit=false operate="" whStr="file_id&text&201001050002" ValueStr="201001050002;dsd;2010-01-05;;1;;" OldValueStr="201001050002;dsd;2010-01-05;;1;;"
+                              height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="dsd" fieldname="file_name" fieldtype="text">
+                                dsd
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2010-01-05" fieldname="file_date" fieldtype="text">
+                                2010-01-05
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_type" fieldtype="dropdown" attr=""></td>
+                            </tr>
+                            <tr class="gridEvenRow" edit=false operate="" whStr="file_id&text&201001050001" ValueStr="201001050001;ce;2010-01-05;;1;;" OldValueStr="201001050001;ce;2010-01-05;;1;;"
+                              height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="ce" fieldname="file_name" fieldtype="text">
+                                ce
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2010-01-05" fieldname="file_date" fieldtype="text">
+                                2010-01-05
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_type" fieldtype="dropdown" attr=""></td>
+                            </tr>
+                            <tr class="gridOddRow" edit=false operate="" whStr="file_id&text&200608100015" ValueStr="200608100015;格式条款信息;2006-08-10;;1;04;"
+                              OldValueStr="200608100015;格式条款信息;2006-08-10;;1;04;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="格式条款信息" fieldname="file_name" fieldtype="text">
+                                格式条款信息
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="04" fieldname="file_type" fieldtype="dropdown" attr="04">
+                                组合回执放款
+                              </td>
+                            </tr>
+                            <tr class="gridEvenRow" edit=false operate="" whStr="file_id&text&200608100014" ValueStr="200608100014;违法广告曝光台;2006-08-10;2034-01-08;1;01;"
+                              OldValueStr="200608100014;违法广告曝光台;2006-08-10;2034-01-08;1;01;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="违法广告曝光台" fieldname="file_name" fieldtype="text">
+                                违法广告曝光台
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2034-01-08" fieldname="file_lastdate" fieldtype="text">
+                                2034-01-08
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="01" fieldname="file_type" fieldtype="dropdown" attr="01">
+                                签约放款
+                              </td>
+                            </tr>
+                            <tr class="gridOddRow" edit=false operate="" whStr="file_id&text&200608100013" ValueStr="200608100013;典型案例曝光;2006-08-10;;1;2;"
+                              OldValueStr="200608100013;典型案例曝光;2006-08-10;;1;2;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="典型案例曝光" fieldname="file_name" fieldtype="text">
+                                典型案例曝光
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2" fieldname="file_type" fieldtype="dropdown" attr="2"></td>
+                            </tr>
+                            <tr class="gridEvenRow" edit=false operate="" whStr="file_id&text&200608100011" ValueStr="200608100011;诚信典型经验;2006-08-10;2010-01-03;1;2;"
+                              OldValueStr="200608100011;诚信典型经验;2006-08-10;2010-01-03;1;2;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="诚信典型经验" fieldname="file_name" fieldtype="text">
+                                诚信典型经验
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2010-01-03" fieldname="file_lastdate" fieldtype="text">
+                                2010-01-03
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2" fieldname="file_type" fieldtype="dropdown" attr="2"></td>
+                            </tr>
+                            <tr class="gridOddRow" edit=false operate="" whStr="file_id&text&200608100010" ValueStr="200608100010;其他良好信息;2006-08-10;;1;2;"
+                              OldValueStr="200608100010;其他良好信息;2006-08-10;;1;2;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="其他良好信息" fieldname="file_name" fieldtype="text">
+                                其他良好信息
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2" fieldname="file_type" fieldtype="dropdown" attr="2"></td>
+                            </tr>
+                            <tr class="gridEvenRow" edit=false operate="" whStr="file_id&text&200608100009" ValueStr="200608100009;广告 信用公示;2006-08-10;;1;2;"
+                              OldValueStr="200608100009;广告 信用公示;2006-08-10;;1;2;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="广告 信用公示" fieldname="file_name" fieldtype="text">
+                                广告 信用公示
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2" fieldname="file_type" fieldtype="dropdown" attr="2"></td>
+                            </tr>
+                            <tr class="gridOddRow" edit=false operate="" whStr="file_id&text&200608100006" ValueStr="200608100006;先进私营企业;2006-08-10;;1;6;"
+                              OldValueStr="200608100006;先进私营企业;2006-08-10;;1;6;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="先进私营企业" fieldname="file_name" fieldtype="text">
+                                先进私营企业
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="6" fieldname="file_type" fieldtype="dropdown" attr="6"></td>
+                            </tr>
+                            <tr class="gridEvenRow" edit=false operate="" whStr="file_id&text&200608100005" ValueStr="200608100005;文明市场;2006-08-10;;1;6;"
+                              OldValueStr="200608100005;文明市场;2006-08-10;;1;6;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="文明市场" fieldname="file_name" fieldtype="text">
+                                文明市场
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="6" fieldname="file_type" fieldtype="dropdown" attr="6"></td>
+                            </tr>
+                            <tr class="gridOddRow" edit=false operate="" whStr="file_id&text&200608100004" ValueStr="200608100004;消费者满意单位;2006-08-10;;1;6;"
+                              OldValueStr="200608100004;消费者满意单位;2006-08-10;;1;6;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="消费者满意单位" fieldname="file_name" fieldtype="text">
+                                消费者满意单位
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="6" fieldname="file_type" fieldtype="dropdown" attr="6"></td>
+                            </tr>
+                            <tr class="gridEvenRow" edit=false operate="" whStr="file_id&text&200608100003" ValueStr="200608100003;工商免检企业;2006-08-10;;1;6;"
+                              OldValueStr="200608100003;工商免检企业;2006-08-10;;1;6;" height="25" OnMouseUp="Gride_OnMouseUp(this)" onclick="TR_click(this)">
+                              <td nowrap width="38.46154%" class="dt_left_padding" oldvalue="工商免检企业" fieldname="file_name" fieldtype="text">
+                                工商免检企业
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="2006-08-10" fieldname="file_date" fieldtype="text">
+                                2006-08-10
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="" fieldname="file_lastdate" fieldtype="text"></td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="1" fieldname="isvisibled" fieldtype="dropdown" attr="1">
+                                是
+                              </td>
+                              <td nowrap width="15.384616%" class="dt_left_padding" oldvalue="6" fieldname="file_type" fieldtype="dropdown" attr="6"></td>
+                            </tr>
+                          </table>
+                        </div>
+                      </div>
+                      <div id="divb_itemTab">
+                        <table width="30%" id="bottom_itemTab" borer="1" cellspacing="1" cellpadding="1">
+                          <tr>
+                            <td nowrap="true" id="all_recordcount" class="statusBarText" width="10%">
+                              总条目:24
+                            </td>
+                            <td id="all_page" class="statusBarText" width="10%" nowrap="true">
+                              总页数:2
+                            </td>
+                            <td width="6%" align="right">
+                              <input class="Covert_Button" id="Covert_ButtonitemTab" type=button hideFocus=true value=转到 onclick='Covert_Click("itemTab","Covert_ButtonitemTab","Covert_TextitemTab")'>
+                            <td valign="top" nowrap="true" width="10%" class="statusBarText">
+                              <input id="Covert_TextitemTab" tableid="itemTab" buttonid="Covert_ButtonitemTab" style="height: 20px;width:30px" value=1
+                                onKeyPress='return newturnPage1_1("itemTab","Covert_ButtonitemTab","Covert_TextitemTab");'>
+                              页
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </form>
+                  </div>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </fieldset>
+    <FIELDSET>
+      <LEGEND>
+        操作
+      </LEGEND>
+      <table width="100%" class="title1">
+        <tr>
+          <td align="right">
+            <table class="borderDataPilot" attrib=datapilot id="itemTabButtons" tableName="itemTab" confirmdelete=true confirmcancel=true readonly=true border=0 cellspacing=1 cellpadding=0>
+              <tr align="center">
+                <td>
+                  <input class="buttonGrooveDisable" id=itemTabButtons_query buttontype="query" type=button hideFocus=true style=" fontFamily: Webdings" value="查看" onclick="dataPilotButton_onclick()">
+                </td>
+                <td>
+                  <input class="buttonGrooveDisable" id=itemTabButtons_appendRecod buttontype="appendRecod" type=button hideFocus=true style=" fontFamily: Webdings" value="添加"
+                    onclick="dataPilotButton_onclick()">
+                </td>
+                <td>
+                  <input class="buttonGrooveDisable" id=itemTabButtons_editRecord buttontype="editRecord" type=button hideFocus=true style=" fontFamily: Webdings" value="编辑"
+                    onclick="dataPilotButton_onclick()">
+                </td>
+                <td>
+                  <input class="buttonGrooveDisable" id=itemTabButtons_deleteRecord buttontype="deleteRecord" type=button hideFocus=true style=" fontFamily: Webdings" value="删除"
+                    onclick="dataPilotButton_onclick()">
+                </td>
+                <td>
+                  <input class="buttonGrooveDisable" id=itemTabButtons_moveFirst buttontype="moveFirst" type=button hideFocus=true style="width:30px; font-family: Webdings" value="9" title="移动到第一页记录"
+                    onclick="dataPilotButton_onclick()">
+                </td>
+                <td>
+                  <input class="buttonGrooveDisable" id=itemTabButtons_prevPage buttontype="prevPage" type=button hideFocus=true style="width:30px; font-family: Webdings" value="7" title="向前翻页"
+                    onclick="dataPilotButton_onclick()">
+                </td>
+                <td>
+                  <input class="buttonGrooveDisable" id=itemTabButtons_nextPage buttontype="nextPage" type=button hideFocus=true style="width:30px; font-family: Webdings" value="8" title="向后翻页"
+                    onclick="dataPilotButton_onclick()">
+                </td>
+                <td>
+                  <input class="buttonGrooveDisable" id=itemTabButtons_moveLast buttontype="moveLast" type=button hideFocus=true style="width:30px; font-family: Webdings" value=":" title="移动到最后一页记录"
+                    onclick="dataPilotButton_onclick()">
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </FIELDSET>
+  </body>
+</html>

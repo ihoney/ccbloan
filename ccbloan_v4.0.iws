@@ -1,0 +1,1272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4b4fefd0-fc01-4e60-bdba-0a78a7309872" name="Default" comment="" />
+    <ignored path="ccbloan_v4.0.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/creditratAction.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398663124362" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/src/pub/platform/advance/utils/PropertyManager.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385447196915" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/src/credit.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385447857388" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/webRoot/UI/ccb/loan/creditrating/custManageList.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385449680394" ignored="false" />
+    <file path="/showReportResult.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385451164349" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/webRoot/UI/ccb/loan/creditrating/showReportResult.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385451320866" ignored="false" />
+    <file path="/uncomcreditList.js" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398670904077" ignored="false" />
+    <file path="/custManageEdit.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387163577304" ignored="false" />
+    <file path="$PROJECT_DIR$/src/Document.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385457636788" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/src/pub/platform/advance/utils/DAOGenerator.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385459275076" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/src/com/ccb/dao/LNPCIF.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385459280866" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/src/com/ccb/dao/LNUNCOMCREDIT.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385459237948" ignored="false" />
+    <file path="/CreditBeanUtil.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387958586139" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/src/com/ccb/dao/LNPSCOREDETAIL.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385459256276" ignored="false" />
+    <file path="/uncomcreditEdit.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398664575452" ignored="false" />
+    <file path="/fragment.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399527725270" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/src/com/ccb/creditrating/creditratAction.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385471900040" ignored="false" />
+    <file path="/UnCommonTiaoXMServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385523494425" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/TestBigDecimal.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385520382539" ignored="false" />
+    <file path="/TestBigDecimal.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385520377576" ignored="false" />
+    <file path="/TestDB.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385520429587" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/TestDB.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385520479410" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/javaweb_poi_word/web/WEB-INF/web.xml" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385530361032" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/javaweb_poi_word/src/servlet/PrintDoc.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385529484134" ignored="false" />
+    <file path="/PrintDoc.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385529477212" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/javaweb_poi_word/src/servlet/ZHExcelServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385530863827" ignored="false" />
+    <file path="/ZHExcelServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1386929526038" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/javaweb_poi_word/src/servlet/OperateWord.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385531946536" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/javaweb_poi_word/src/servlet/ZHWordServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385532051558" ignored="false" />
+    <file path="/ZHWordServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385532050878" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/fileOper/src/WordTest.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700582209" ignored="false" />
+    <file path="/WordTest.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385532592433" ignored="false" />
+    <file path="/a.dummy" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398662589403" ignored="false" />
+    <file path="/ReadExcel.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385651076301" ignored="false" />
+    <file path="/AbstractBasicBean.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385649585266" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/DateTrans.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700582209" ignored="false" />
+    <file path="/DateTrans.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385650684779" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/ReadExcel.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385652003318" ignored="false" />
+    <file path="/FHExcelServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1417195627127" ignored="false" />
+    <file path="/creditRatingFH.js" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387953269509" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/TestUUID.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700582209" ignored="false" />
+    <file path="/TestUUID.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398418763858" ignored="false" />
+    <file path="$PROJECT_DIR$/../hims/java/hims/view/AvgSalePriceLowAnaAction.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385699787701" ignored="false" />
+    <file path="/AvgSalePriceLowAnaAction.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385699768053" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/test.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700439154" ignored="false" />
+    <file path="/test.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700417521" ignored="false" />
+    <file path="$PROJECT_DIR$/../hims/resources/prjcfg_production.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700582512" ignored="false" />
+    <file path="$PROJECT_DIR$/../hims/resources/prjcfg_development.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700582209" ignored="false" />
+    <file path="$PROJECT_DIR$/../hims/resources/prjcfg.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700582209" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/tet.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700592525" ignored="false" />
+    <file path="/tet.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700513497" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/TestString.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700885100" ignored="false" />
+    <file path="/TestString.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385700851573" ignored="false" />
+    <file path="/__dummy.xml" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1385950238823" ignored="false" />
+    <file path="/ZtSelect.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1386651440969" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/webRoot/UI/ccb/loan/creditrating/custManageEdit.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1386657010320" ignored="false" />
+    <file path="$PROJECT_DIR$/../ccbloan/webRoot/UI/ccb/loan/creditrating/uncomcreditEdit.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1386657583702" ignored="false" />
+    <file path="/ReportCountExcelServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1425546661791" ignored="false" />
+    <file path="/StatisticsServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1397093913859" ignored="false" />
+    <file path="/barCodeEdit.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1386836404963" ignored="false" />
+    <file path="/CcbLoanConst.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1386929768964" ignored="false" />
+    <file path="/SeqUtil.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1386929876851" ignored="false" />
+    <file path="/StringUtil.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1386930407650" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/action/TestZIPFile.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387182795210" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/action/TestInterF.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387182795210" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/jiekou/TestInterf.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387182795210" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/action/TestCalander.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387183923901" ignored="false" />
+    <file path="/TestCalander.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387183909848" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/src/com/ccb/creditrating/creditratAction.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387957251061" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/creditRatingFH.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1419584114228" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/report_zh.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387959328207" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/src/com/ccb/servlet/ZHExcelServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387954754350" ignored="false" />
+    <file path="/report_zh.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387959301212" ignored="false" />
+    <file path="/report_fh.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387954908972" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/report_fh.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387954920494" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/barCodeReport_com.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387959052104" ignored="false" />
+    <file path="/barCodeReport_com.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387959049078" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/barCodeReport_uncom.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387959352716" ignored="false" />
+    <file path="/barCodeReport_uncom.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387959339732" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/gradestand.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387955210892" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/gradestandFH.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387955234414" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/barCodeEdit.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387955261248" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/UI/ccb/loan/creditrating/uncomcreditList.js" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387955311017" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/web/WEB-INF/web.xml" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387955372686" ignored="false" />
+    <file path="G:/workspace/ccbloan_v5.0/src/com/ccb/creditrating/CreditBeanUtil.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1387958589715" ignored="false" />
+    <file path="/Dummy.txt" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1394678060041" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/webFileOper/src/action/PDFMUBAN.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1394686726755" ignored="false" />
+    <file path="/PDFMUBAN.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1394686694908" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/JSPtest/src/servlet/PdfTemplateExoprt.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1394687042054" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/JSPtest/web/WEB-INF/web.xml" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1394687120949" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/JSPtest/src/servlet/PdfTemplateExoprtServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1394687244516" ignored="false" />
+    <file path="/web.xml" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1394687119690" ignored="false" />
+    <file path="/PdfTemplateExoprtServlet.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1394687244516" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/CallDll.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1395046452464" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/action/UniqueCodeTest.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398417808158" ignored="false" />
+    <file path="/UniqueCodeTest.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398417795864" ignored="false" />
+    <file path="$PROJECT_DIR$/../example/commontest/src/action/TestUUID.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398419642404" ignored="false" />
+    <file path="/pscoredetailEdit.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398664102712" ignored="false" />
+    <file path="/creatingReportList.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398664881302" ignored="false" />
+    <file path="/uncomcreditList.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398667731436" ignored="false" />
+    <file path="/uncomcreditListFH.jsp" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1398667747507" ignored="false" />
+    <file path="$PROJECT_DIR$/../shuikong/src/service/ShuiKongService.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399527784999" ignored="false" />
+    <file path="/ShuiKongService.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399524254537" ignored="false" />
+    <file path="$PROJECT_DIR$/../shuikong/src/prjcfg.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399526310173" ignored="false" />
+    <file path="/prjcfg.properties" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399526310173" ignored="false" />
+    <file path="$PROJECT_DIR$/../shuikong/src/rowmapper/ExpotItemRowMapper.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399527708258" ignored="false" />
+    <file path="$PROJECT_DIR$/../shuikong/src/rowmapper/ExportItemRowMapper.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399527756871" ignored="false" />
+    <file path="$PROJECT_DIR$/../shuikong/web/invoiceQry.xhtml" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399623499628" ignored="false" />
+    <file path="$PROJECT_DIR$/../shuikong/src/action/ShuiKongAction.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399623691745" ignored="false" />
+    <file path="/ShuiKongAction.java" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399529443455" ignored="false" />
+    <file path="/invoiceQry.xhtml" changelist="4b4fefd0-fc01-4e60-bdba-0a78a7309872" time="1399623499628" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/web/UI/ccb/loan/coopprojMgr/coopprojEdit.jsp" line="147" class="coopprojEdit.jsp" package="E:\workspace\ccbloan_v4.0\web\UI\ccb\loan\coopprojMgr">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="ccbloan_v4.0" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="creatingReportList.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creatingReportList.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creditRating.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRating.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="69" column="67" selection-start="4156" selection-end="4168" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1385452677832" expanded="false" signature="4:203" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creditRating.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRating.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="58" selection-start="4853" selection-end="4863" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gradestand.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/gradestand.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="182" column="91" selection-start="6136" selection-end="6150" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ZHExcelServlet.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/ccb/servlet/ZHExcelServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="190" column="17" selection-start="8575" selection-end="8666" vertical-scroll-proportion="0.57256776">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XLSTransformer.class" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jxls-core-0.9.9.jar!/net/sf/jxls/transformer/XLSTransformer.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="-5.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creditRatingFH.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRatingFH.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="creditRatingFH.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRatingFH.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1419581226036" expanded="false" signature="4:201" placeholder="..." />
+                <marker date="1419581226036" expanded="false" signature="650:990" placeholder="{...}" />
+                <marker date="1419581226036" expanded="false" signature="798:837" placeholder="{...}" />
+                <marker date="1419581226036" expanded="false" signature="872:980" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custManageEdit.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/custManageEdit.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="135" column="20" selection-start="5244" selection-end="5244" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1387163584434" expanded="false" signature="4:203" placeholder="..." />
+                <marker date="1387163584434" expanded="false" signature="1705:1933" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="1744:1923" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="1966:3051" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="2066:2105" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="2273:2387" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="2931:2983" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="2989:3041" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="3084:3389" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="3214:3264" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="3270:3379" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="3433:3732" placeholder="{...}" />
+                <marker date="1387163584434" expanded="false" signature="3769:3829" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custManageEdit.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/custManageEdit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/ccb/util/CcbLoanConst.java" />
+        <option value="$PROJECT_DIR$/src/com/ccb/util/StringUtil.java" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/custManageEdit.jsp" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRatingFH.jsp" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRatingFH.js" />
+        <option value="$PROJECT_DIR$/src/com/ccb/creditrating/FieldUtil.java" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditEdit.js" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/pscoredetailEdit.jsp" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditEdit.jsp" />
+        <option value="$PROJECT_DIR$/src/com/ccb/creditrating/creditratAction.java" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditListFH.jsp" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditList.jsp" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creatingReportList.jsp" />
+        <option value="$PROJECT_DIR$/src/com/ccb/servlet/ReportCountExcelServlet.java" />
+        <option value="$PROJECT_DIR$/src/com/ccb/servlet/StatisticsServlet.java" />
+        <option value="$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditList.js" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-116" />
+    <option name="y" value="94" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectStructureProblems">
+    <ignored-problems>
+      <problem id="invalid-module-dependency(module:ccbloan_v4.0,Tomcat 7.0)" />
+      <problem id="invalid-module-dependency(module:ccbloan_v4.0,WebLogic 10.3.4.0)" />
+    </ignored-problems>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jxls-core-0.9.9.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jxls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jxls-core-0.9.9.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jxls" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="transformer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ccbloan_v4.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jxls-core-0.9.9.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiFileNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15625" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="ccbloan_v4.0" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="options.lastSelected" value="File.Encoding" />
+    <property name="project.structure.side.proportion" value="0.20000002" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
+    <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\ccbloan_v4.0\web\report" />
+      <recent name="D:\workspace\ccbloan_v4.0\src\com\ccb" />
+      <recent name="D:\workspace\ccbloan_v4.0\src\com\ccb\util" />
+      <recent name="D:\workspace\ccbloan_v4.0\web\WEB-INF\lib" />
+      <recent name="D:\workspace\ccbloan_v4.0\src\com\ccb\dao" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\workspace\ccbloan_v4.0\src\com\ccb\servlet" />
+    </key>
+  </component>
+  <component name="RunManager" selected="WebLogic Server.webccbloan">
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="WebLogic Instance" factoryName="Local">
+      <option name="PORT" value="7001" />
+      <deployment />
+      <server-settings>
+        <option name="DOMAIN_PATH" value="" />
+        <option name="SERVER_NAME" value="myserver" />
+        <option name="DOMAIN_NAME" value="mydomain" />
+        <option name="ADMIN_SERVER_HOST" value="localhost" />
+        <option name="ADMIN_SERVER_PORT" value="7001" />
+        <option name="CLUSTER_NAME" value="mycluster" />
+        <option name="CONNECT_TO_MANAGED_SERVER" value="false" />
+        <option name="USERNAME" value="weblogic" />
+        <option name="PASSWORD" value="" />
+      </server-settings>
+      <predefined_log_file id="WEBLOGIC_DOMAIN_LOG_FILE" enabled="true" />
+      <predefined_log_file id="WEBLOGIC_SERVER_LOG_FILE" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ccbloan4.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0_32">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ccbloan_v4.0">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_ccbloan_v4_0_2" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="52233" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Debug">
+        <option name="DEBUG_PORT" value="60860" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="JRebel Executor" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="JRebel Executor">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ccbloan_v4.0" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="webccbloan" type="WebLogic Instance" factoryName="Local" APPLICATION_SERVER_NAME="WebLogic 10.3.4.0">
+      <option name="PORT" value="7001" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="ccbloan_v4.0">
+          <settings DEPLOYMENT_METHOD="Auto deploy">
+            <option name="CHECK_EJB_CMP_DATASOURCES" value="true" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="DOMAIN_PATH" value="D:/Oracle/Middleware/user_projects/domains/ccbloanthird" />
+        <option name="SERVER_NAME" value="AdminServer" />
+        <option name="DOMAIN_NAME" value="ccbloanthird" />
+        <option name="ADMIN_SERVER_HOST" value="localhost" />
+        <option name="ADMIN_SERVER_PORT" value="7001" />
+        <option name="CLUSTER_NAME" value="mycluster" />
+        <option name="CONNECT_TO_MANAGED_SERVER" value="false" />
+        <option name="USERNAME" value="weblogic" />
+        <option name="PASSWORD" value="admin888" />
+      </server-settings>
+      <predefined_log_file id="WEBLOGIC_SERVER_LOG_FILE" enabled="true" />
+      <predefined_log_file id="WEBLOGIC_DOMAIN_LOG_FILE" enabled="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Cover" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="58969" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTIONS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTIONS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTIONS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="ccbloan_v4.0" />
+        </option>
+      </method>
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.ccbloan4.0" />
+      <item index="1" class="java.lang.String" itemvalue="WebLogic Server.webccbloan" />
+    </list>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b4fefd0-fc01-4e60-bdba-0a78a7309872" name="Default" comment="" />
+      <created>1385437023195</created>
+      <updated>1385437023195</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-116" y="94" width="1616" height="876" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32991454" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23709902" sideWeight="0.4939302" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33846155" sideWeight="0.49772382" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19780928" sideWeight="0.24407253" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28300455" sideWeight="0.19246861" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32820514" sideWeight="0.4969651" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24962063" sideWeight="0.52307695" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32649574" sideWeight="0.4939302" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23260309" sideWeight="0.76290095" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36122733" sideWeight="0.4969651" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Executor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17433752" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.36959553" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/ccb/creditrating/creditratAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="610" column="0" selection-start="27623" selection-end="27623" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditList.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="26" selection-start="2343" selection-end="2343" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="223" column="97" selection-start="7542" selection-end="7542" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="188" column="21" selection-start="7821" selection-end="7821" vertical-scroll-proportion="-8.235294">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/uncomcreditEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="9" selection-start="797" selection-end="797" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/barCodeList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creatingReportList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRatingFH.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRatingFH.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1419581226036" expanded="false" signature="4:201" placeholder="..." />
+            <marker date="1419581226036" expanded="false" signature="650:990" placeholder="{...}" />
+            <marker date="1419581226036" expanded="false" signature="798:837" placeholder="{...}" />
+            <marker date="1419581226036" expanded="false" signature="872:980" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/custManageEdit.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/custManageEdit.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="135" column="20" selection-start="5244" selection-end="5244" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1387163584434" expanded="false" signature="4:203" placeholder="..." />
+            <marker date="1387163584434" expanded="false" signature="1705:1933" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="1744:1923" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="1966:3051" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="2066:2105" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="2273:2387" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="2931:2983" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="2989:3041" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="3084:3389" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="3214:3264" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="3270:3379" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="3433:3732" placeholder="{...}" />
+            <marker date="1387163584434" expanded="false" signature="3769:3829" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRating.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="67" selection-start="4156" selection-end="4168" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1385452677832" expanded="false" signature="4:203" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/creditRating.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="58" selection-start="4853" selection-end="4863" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/UI/ccb/loan/creditrating/gradestand.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="182" column="91" selection-start="6136" selection-end="6150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/jxls-core-0.9.9.jar!/net/sf/jxls/transformer/XLSTransformer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="-5.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/ccb/servlet/ZHExcelServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="190" column="17" selection-start="8575" selection-end="8666" vertical-scroll-proportion="0.57256776">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>ccbloan_v4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Web (ccbloan_v4.0)|Web</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>ccbloan_v4.0</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.20000002" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
+
